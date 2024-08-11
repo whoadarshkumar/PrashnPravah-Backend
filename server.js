@@ -9,6 +9,11 @@ const examsRoute = require("./routes/examsRoute");
 const resportsRoute = require("./routes/reportsRoute");
 
 
+app.get("/",(req,res)=>{
+  res.send("Ok");
+})
+
+
 app.use("/api/users", usersRoute);
 app.use("/api/exams", examsRoute);
 app.use("/api/reports", resportsRoute);
