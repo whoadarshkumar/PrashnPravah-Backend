@@ -11,7 +11,7 @@ const resportsRoute = require("./routes/reportsRoute");
 
 
 app.use(cors({
-  origin:'http://localhost:3000'
+  origin:'http://localhost:3000/'
 }));
 
 app.get("/",(req,res)=>{
